@@ -54,8 +54,14 @@ export default {
   */
   modules: [
     // Doc: https://http.nuxtjs.org
-    '@nuxt/http'
+    '@nuxt/http',
+    '@nuxtjs/axios'
   ],
+
+  axios: {
+    // baseUrl: 'http://localhost:3000/api'
+    baseUrl: 'https://emino-podcast.herokuapp.com/'
+  },
 
   /*
   ** Server Middleware
