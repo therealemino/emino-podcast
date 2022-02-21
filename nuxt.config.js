@@ -60,7 +60,7 @@ export default {
 
   axios: {
     // baseUrl: 'http://localhost:3000/api'
-    baseUrl: 'https://emino-podcast.herokuapp.com/'
+    baseUrl: 'https://emino-podcast.herokuapp.com/api'
   },
 
   /*
